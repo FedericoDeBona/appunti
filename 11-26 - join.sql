@@ -8,6 +8,7 @@ FROM persone AS p,
 -- Con questa query ottengo tutte le possibili coppie per ogni campo,
 -- da due tabelle con 3 record ciascuna, otterrei una tabella con 9 record.
 -- Detto prodotto cartesiano -> AxB = {(a,b) | a=A, b=B}
+-- A prodotto cartesiano B = insieme a e insieme b, con a = A e b = B
 
 -- Associa solo i record con la nazione uguale
 SELECT 
