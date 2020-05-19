@@ -1,0 +1,5 @@
+BLOB(byte large object) -> sono colonne per memorizzare grandi quantità di byte, come foto, anche 1 GB
+	- svantaggio: backup lenti
+	- vantaggio: si tiene tutto sincronizzato, altrimenti il path può cambiare
+
+Da PHP si inseriscono con un semplice preapre, e gli si passa una stringa

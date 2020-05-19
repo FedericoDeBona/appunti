@@ -15,6 +15,10 @@ Esempio
 set-cookie: nome_cookie = valore
 set-cookie: utenteid = 93, lingue = it
 
+i due tipi di cookie:
+- Di sessione
+- Persistenti -> quelli che hanno una data di scadenza
+
 FUNZIONAMENTO
 1. la prima volta che il borwser si collega al server, il server invia il cookie al browser
 

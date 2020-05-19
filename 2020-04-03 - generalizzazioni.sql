@@ -87,7 +87,8 @@ persone(pid(pk), nome, cognome, is_studente, scuola, matricola, ..., is_lavorato
 
 sol.3 -> tabelle SOLO per le entità figlie dove si riportano gli attributi delle proprietà madre + quella della figlia
 ‾‾‾‾‾
-svantaggi: NON si possono gestire le sovrapposizioni, perchè ci potrebbero essere dati della tabella madre doppi
+svantaggi: NON si possono gestire le sovrapposizioni, perchè ci potrebbero essere dati della tabella madre doppi, 
+		   può dar luogo ad una INCONSISTENZA
 
 studenti(pid(pk), nome, cognome, scuola, matricola, ...)
 

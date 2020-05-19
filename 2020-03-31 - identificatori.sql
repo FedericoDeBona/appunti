@@ -1,7 +1,7 @@
 /*
 Identificatore surrogato: id, usato quando nella tabella non c'è altro modo per identificare un record
 
-CASO DI IDENTIFICATORE ESTERNO
+CASO DI IDENTIFICATORE ESTERNO -> Entità debole, identificatore debole
    matricola
  •		○ 
  |------|-----------+		
